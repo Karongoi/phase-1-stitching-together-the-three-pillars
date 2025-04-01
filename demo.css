@@ -1,36 +1,27 @@
 body {
-  margin: 5% 10%;
-  background-color: rgb(29,161,242);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
 }
 
-body h1 {
-  color: #FFF;
+h1 {
+  color: #333;
 }
 
-body > header {
-  margin-bottom: 5%;
+.media-post {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px auto;
+  width: 300px;
+  background-color: #f9f9f9;
 }
 
-article.media-post {
-  border: solid 1px #000;
-  margin: 2% 3%;
-  background-color: #fff;
+.like-glyph {
+  cursor: pointer;
+  font-size: 20px;
+  transition: color 0.2s;
 }
 
-article.media-post > p {
-  background-color: rgba(0,123,255,0.25);
-  padding: 1em 2em;
-}
-
-article.media-post > header {
-  padding: 1em 2em;
-  background-color: rgb(225,232,237);
-}
-
-article.media-post > footer {
-  color: rgb(170,184,194);
-}
-
-article.media-post > footer ul {
-  list-style-type: none;
+.like-glyph:hover {
+  color: red;
 }

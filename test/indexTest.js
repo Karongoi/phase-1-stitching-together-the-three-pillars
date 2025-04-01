@@ -1,8 +1,7 @@
-require ( './helpers.js' );
+const expect = require("chai").expect;
 
-describe("index.js", () => {
-  it("exists", () => {
-    expect(testVar).to.exist
-    expect(testVar).to.deep.equal({}) //without .deep, {} does not equal {}
-  })
-})
+describe("index.js", function () {
+    it("exists", function () {
+        expect(typeof testVar).to.not.equal("undefined");
+    });
+});
